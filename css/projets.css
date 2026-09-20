@@ -1,0 +1,100 @@
+#projets {
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#projets .terminal-prompt {
+    width: 100%;
+    max-width: 850px; 
+    margin-bottom: 20px;
+}
+
+.project-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 100%;
+    max-width: 850px; 
+}
+
+.project-card {
+    background-color: #080808;
+    border: 1px dashed var(--border-color);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: border-color 0.2s ease;
+    width: 100%;
+}
+
+.project-card:hover {
+    border-color: var(--primary-color);
+}
+
+.project-header {
+    margin-bottom: 15px;
+}
+
+.project-header h4 {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    margin-bottom: 5px;
+    font-family: var(--font-mono);
+}
+
+.project-short-desc {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.project-desc {
+    font-size: 0.95rem;
+    color: var(--text-color);
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    margin-bottom: 20px;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--border-color);
+    display: block;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: auto; 
+    padding-top: 15px;
+    border-top: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
+.project-tag-icon {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+}
+
+.project-tag-icon i {
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+/* Responsive mobile */
+@media (max-width: 768px) {
+    .project-grid {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="icon" type="image/png" href="img/icons/favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>moussa@ubuntu: ~/accueil</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/accueil.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/loader.css">
+</head>
+<body>
+    <!-- loader accueil -->
+    <div id="loading-screen">
+        <div class="loader-content">
+            <p>moussa@ubuntu:~$ <span class="cmd-white">./init.sh</span></p>
+            <div class="progress-bar-container">
+                <div class="progress-bar"></div>
+            </div>
+            <p class="loader-text">[<span>0%</span>] Chargement des modules système...</p>
+        </div>
+    </div>
+    
+    <div class="wrapper">
+        <header id="header">
+            <div class="header-container">
+                <div class="logo">moussa@ubuntu:~/accueil$ <span class="cursor"></span></div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">./accueil</a></li>
+                        <li><a href="html/projets.html">cd ../projets</a></li>
+                        <li><a href="html/contact.html">cd ../contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section id="accueil">
+                <div class="terminal-prompt">moussa@ubuntu:~$ <span>cat ./presentation.txt</span></div>
+                <div class="accueil-text">
+                    <h1>Moussa Salah</h1>
+                    <h2>> Étudiant en L3 Informatique - Université Paris VIII</h2>
+                    
+                    <p>Si je devais résumer comment je suis tombé dans le développement, je dirais que c'est en grande partie la faute des jeux vidéo plus jeune je passais mon temps sur des serveurs multijoueurs sur Minecraft ou encore sur Dofus et très vite au lieu de juste jouer j'ai commencé à me poser des questions, comment un serveur arrive à gérer des milliers de joueurs en même temps ? Comment l'économie d'un jeu ou les échanges entre serveurs sont codés en arrière plan ? C'est cette curiosité de vouloir "comprendre comment c'est fait" qui m'a poussé à taper mes premières lignes de code.</p>
+
+                    <p>Aujourd'hui j'ai troqué une bonne partie de mon temps de jeu pour le C, le C++ et Python et ce qui m'intéresse le plus c'est de découvrir la logique système essayer de comprendre la gestion de la mémoire bricoler des trucs en réseau avec des sockets ou monter des petits serveurs web, j'aime bien quand c'est bas niveau et voir un peu comment ça tourne même si je suis encore en train d'apprendre et que je ne suis spécialisé nulle part pour l'instant.</p>
+
+                    <p>Sinon pour ce qui est du reste je combine mes études avec un job étudiant ce qui m'a appris à être autonome organisé et à gérer un emploi du temps bien rempli. Chose à savoir j'aime apprendre de nouvelles choses au quotidien relever des défis et m'investir à fond dans ce que je fais n'hésitez pas à parcourir mon site pour découvrir mon parcours et mes projets !</p>
+                </div>
+            
+                <div class="tech-stack">
+                    <div class="terminal-prompt">moussa@ubuntu:~$ <span>echo $PATH | env</span></div>
+                    <div class="tech-grid">
+                        <div class="tech-icon"><i class="devicon-c-plain"></i><span>C</span></div>
+                        <div class="tech-icon"><i class="devicon-cplusplus-plain"></i><span>C++</span></div>
+                        <div class="tech-icon"><i class="devicon-python-plain"></i><span>Python</span></div>
+                        <div class="tech-icon"><i class="devicon-bash-plain"></i><span>Bash</span></div>
+                        <div class="tech-icon"><i class="devicon-javascript-plain"></i><span>JS</span></div>
+                        <div class="tech-icon"><i class="devicon-html5-plain"></i><span>HTML</span></div>
+                        <div class="tech-icon"><i class="devicon-css3-plain"></i><span>CSS</span></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>root@moussa-desktop:~# exit</p>
+        </footer>
+    </div>
+    
+    <script src="js/script.js"></script>
+    <script src="js/loader.js"></script>
+</body>
+</html>

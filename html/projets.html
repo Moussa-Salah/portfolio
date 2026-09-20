@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="icon" type="image/png" href="../img/icons/favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>moussa@ubuntu: ~/projets</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/projets.css">
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header id="header">
+            <div class="header-container">
+                <div class="logo">moussa@ubuntu:~/projets$ <span class="cursor"></span></div>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">cd ../accueil</a></li>
+                        <li><a href="projets.html">./projets</a></li>
+                        <li><a href="contact.html">cd ../contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section id="projets">
+                <div class="terminal-prompt">moussa@ubuntu:~$ <span>ls -la ./projets</span></div>
+                
+                <div class="project-grid">
+                    
+                    <!-- King of Snakes -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h4>Développement jeux vidéo</h4>
+                            <p class="project-short-desc">King of Snakes (Godot, C#)</p>
+                        </div>
+                        <div class="project-details">
+                            <p class="project-desc">
+                                Mon tout premier projet, inspiré du célèbre jeu du dinosaure de Google Chrome que nous connaissons tous quand la connexion internet fait défaut.
+                                <br><br>
+                                > <strong>Astuce technique |</strong> Le personnage ne bouge pas réellement, ses animations de course tournent en boucle pendant que j'accélère dynamiquement la vitesse de défilement du décor. L'illusion est totale.
+                            </p>
+                            <div class="video-container">
+                                <video controls preload="metadata">
+                                    <source src="../img/projects/king_of_snakes.mp4" type="video/mp4">
+                                    [ERREUR] Module vidéo non supporté.
+                                </video>
+                            </div>
+                            <div class="project-tags">
+                                <span class="project-tag-icon"><i class="devicon-godot-plain"></i> Godot</span>
+                                <span class="project-tag-icon"><i class="devicon-csharp-plain"></i> C#</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Copter -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h4>Développement jeux vidéo 2</h4>
+                            <p class="project-short-desc">Copter (Godot, C#)</p>
+                        </div>
+                        <div class="project-details">
+                            <p class="project-desc">
+                                Mon deuxième projet de jeu vidéo, inspiré du grand classique Copter. Si King of Snakes reposait sur une structure plus classique, j'ai voulu pousser le défi technique un cran au-dessus ici tout est généré et tracé entièrement en code.
+                                <br><br>
+                                > <strong>Challenge technique |</strong> Pas de sprites préfabriqués ni de tileset pour l'hélicoptère, l'appareil est assemblé et dessiné dynamiquement à l'aide de polygones géométriques et de vecteurs mathématiques directement dans le script, couplé à une gestion fluide des obstacles et de la gravité.
+                            </p>
+                            <div class="video-container">
+                                <video controls preload="metadata">
+                                    <source src="../img/projects/copter.mp4" type="video/mp4">
+                                    [ERREUR] Module vidéo non supporté.
+                                </video>
+                            </div>
+                            <div class="project-tags">
+                                <span class="project-tag-icon"><i class="devicon-godot-plain"></i> Godot</span>
+                                <span class="project-tag-icon"><i class="devicon-csharp-plain"></i> C#</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Puissance 4 -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h4>Programmation système et réseau</h4>
+                            <p class="project-short-desc">Puissance 4 multijoueur en réseau local (Serveur C / Client Python)</p>
+                        </div>
+                        <div class="project-details">
+                            <p class="project-desc">
+                                Un Puissance 4 jouable en multijoueur sur un réseau local, faisant communiquer une interface client en Python avec un serveur en C.
+                                <br><br>
+                                > <strong>Choix technique |</strong> Conception d'un serveur TCP stable capable de gérer plusieurs joueurs simultanément grâce à la fonction <code>poll()</code>. Le système gère les défis, les tours de jeu et sécurise les déconnexions brutales pour éviter les crashs.
+                            </p>
+                            <div class="video-container">
+                                <video controls preload="metadata">
+                                    <source src="../img/projects/puissance.mp4" type="video/mp4">
+                                    [ERREUR] Module vidéo non supporté.
+                                </video>
+                            </div>
+                            <div class="project-tags">
+                                <span class="project-tag-icon"><i class="devicon-c-plain"></i> C</span>
+                                <span class="project-tag-icon"><i class="devicon-python-plain"></i> Python</span>
+                                <span class="project-tag-icon"><i class="devicon-bash-plain"></i> Sockets / TCP</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Simulation autonome -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h4>Programmation orientée objet</h4>
+                            <p class="project-short-desc">Simulation autonome orientée objet en (C++)</p>
+                        </div>
+                        <div class="project-details">
+                            <p class="project-desc">
+                                Un petit écosystème autonome où moutons, loups, herbe et minéraux cohabitent sur une grille. Le vrai défi n'était pas tant d'équilibrer la chaîne alimentaire, mais plutôt de construire l'architecture de code la plus propre et évolutive possible.
+                                <br><br>
+                                > <strong>Choix technique |</strong> Pour éviter un code illisible rempli de "if/else" servant à vérifier chaque type d'animal, tout repose sur le polymorphisme. Une simple méthode virtuelle <code>tick()</code> est appelée à chaque tour et chaque entité sait comment agir. J'ai aussi dû blinder mes destructeurs pour m'assurer qu'aucune fuite de mémoire ne vienne crasher la simulation !
+                            </p>
+                            <div class="video-container">
+                                <video controls preload="metadata">
+                                    <source src="../img/projects/ecosysteme.mp4" type="video/mp4">
+                                    [ERREUR] Module vidéo non supporté.
+                                </video>
+                            </div>
+                            <div class="project-tags">
+                                <span class="project-tag-icon"><i class="devicon-cplusplus-plain"></i> C++</span>
+                                <span class="project-tag-icon"><i class="devicon-bash-plain"></i> Makefile</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Webeon -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h4>Développement Web</h4>
+                            <p class="project-short-desc">Webeon (HTML, CSS, JS)</p>
+                        </div>
+                        <div class="project-details">
+                            <p class="project-desc">
+                                Un projet un peu plus entrepreneurial que les autres, actuellement en cours de développement. L'idée de Webeon est d'accompagner les artisans et petites entreprises en leur proposant des sites vitrines modernes et sans prise de tête pour améliorer leur visibilité en ligne.
+                                <br><br>
+                                > <strong>Choix technique |</strong> Pour de simples sites vitrines, j'ai fait le choix de fuir les frameworks lourds, tout est codé "à la main" en HTML, CSS et JS. Le résultat ? Des pages ultra-légères qui se chargent instantanément et qui restent très faciles à maintenir.
+                            </p>
+                            <div class="video-container">
+                                <video controls preload="metadata">
+                                    <source src="../img/projects/webeon.mp4" type="video/mp4">
+                                    [ERREUR] Module vidéo non supporté.
+                                </video>
+                            </div>
+                            <div class="project-tags">
+                                <span class="project-tag-icon"><i class="devicon-html5-plain"></i> HTML</span>
+                                <span class="project-tag-icon"><i class="devicon-css3-plain"></i> CSS</span>
+                                <span class="project-tag-icon"><i class="devicon-javascript-plain"></i> JS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>root@moussa-desktop:~# exit</p>
+        </footer>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>

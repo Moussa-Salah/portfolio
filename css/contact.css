@@ -1,0 +1,43 @@
+#contact {
+    margin-bottom: 60px;
+}
+
+.contact-container {
+    margin-top: 20px;
+    max-width: 700px;
+}
+
+.contact-desc {
+    color: var(--text-color);
+    font-family: var(--font-mono);
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.contact-box, .status-box {
+    background-color: #080808;
+    border: 1px dashed var(--border-color);
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: var(--font-mono);
+}
+
+.contact-box p, .status-box p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin: 0;
+}
+
+.contact-box a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: text-shadow 0.2s;
+}
+
+.contact-box a:hover {
+    text-decoration: underline;
+    text-shadow: var(--glow);
+}
