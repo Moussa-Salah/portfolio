@@ -82,16 +82,17 @@
         text-align: left;
     }
     .tech-grid {
-        flex-wrap: nowrap; 
-        justify-content: space-between; 
-        gap: 8px; 
-        overflow-x: auto; 
-        padding-bottom: 10px; 
+        flex-wrap: wrap; 
+        justify-content: center; 
+        gap: 15px; 
+    }
+    .tech-icon {
+        width: 20%; 
     }
     .tech-icon i {
-        font-size: 1.6rem; 
+        font-size: 2rem;
     }
     .tech-icon span {
-        font-size: 0.7rem; 
+        font-size: 0.8rem;
     }
 }
