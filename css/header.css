@@ -26,6 +26,7 @@ nav ul {
 nav a {
     color: #ffffff;
     font-size: 0.9rem;
+    white-space: nowrap;
 }
 
 nav a:hover {
