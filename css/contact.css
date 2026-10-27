@@ -15,7 +15,7 @@
     line-height: 1.6;
 }
 
-.contact-box, .status-box {
+.contact-box, .status-box, .cv-box {
     background-color: #080808;
     border: 1px dashed var(--border-color);
     padding: 20px 25px;
@@ -25,13 +25,13 @@
     font-family: var(--font-mono);
 }
 
-.contact-box p, .status-box p {
+.contact-box p, .status-box p, .cv-box p {
     color: var(--text-color);
     font-size: 0.95rem;
     margin: 0;
 }
 
-.contact-box a {
+.contact-box a, .cv-box a {
     color: var(--primary-color);
     text-decoration: none;
     transition: text-shadow 0.2s;
