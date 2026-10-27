@@ -38,7 +38,7 @@
     white-space: nowrap;
 }
 
-.contact-box a:hover {
+.contact-box a:hover, .cv-box a:hover {
     text-decoration: underline;
     text-shadow: var(--glow);
 }
