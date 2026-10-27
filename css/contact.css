@@ -35,6 +35,7 @@
     color: var(--primary-color);
     text-decoration: none;
     transition: text-shadow 0.2s;
+    white-space: nowrap;
 }
 
 .contact-box a:hover {
