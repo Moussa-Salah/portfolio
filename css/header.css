@@ -40,7 +40,9 @@ nav a:hover {
     .header-container {
         flex-direction: column;
         align-items: flex-start;
-        gap: 25px; 
+        gap: 25px;
+        padding: 0 15px;
+        box-sizing: border-box;
     }
 
     nav {
@@ -49,7 +51,7 @@ nav a:hover {
 
     nav ul {
         display: grid;
-        grid-template-columns: 1fr 1fr; /* Force 2 colonnes égales */
+        grid-template-columns: 1fr 1fr;
         gap: 15px;
     }
 }
