@@ -71,17 +71,27 @@
 
 /* Responsive mobile */
 @media (max-width: 768px) {
-    #certifications .terminal-prompt {
-        padding: 0 15px;
+    #certifications {
+        align-items: flex-start; 
+        padding: 0 15px; 
         box-sizing: border-box;
+        width: 100%;
+    }
+
+    #certifications .terminal-prompt {
+        padding: 0; 
+        width: 100%;
     }
 
     .cert-grid {
-        max-width: 100%;
-        padding: 0 15px;
+        padding: 0;
+        width: 100%;
+        box-sizing: border-box;
     }
     
     .cert-card {
         padding: 20px 15px; 
+        width: 100%;
+        box-sizing: border-box; 
     }
 }
