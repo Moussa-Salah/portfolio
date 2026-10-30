@@ -138,5 +138,12 @@ a {
         font-size: 0.95rem; 
         white-space: nowrap; 
         overflow-x: auto;  
+
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+
+    .terminal-prompt::-webkit-scrollbar {
+        display: none;
     }
 }
