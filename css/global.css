@@ -126,7 +126,6 @@ a {
 
     .contact-box {
         padding: 15px 10px;
-        overflow-x: auto;
     }
     
     .contact-box p {
@@ -137,6 +136,5 @@ a {
     .terminal-prompt {
         font-size: 0.95rem; 
         white-space: nowrap; 
-        overflow-x: auto;  
     }
 }
