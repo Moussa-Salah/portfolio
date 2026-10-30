@@ -123,4 +123,14 @@ a {
         padding: 0;
         box-sizing: border-box;
     }
+
+    .contact-box {
+        padding: 15px 10px;
+        overflow-x: auto;
+    }
+    
+    .contact-box p {
+        font-size: 12px;
+        white-space: nowrap;
+    }
 }
