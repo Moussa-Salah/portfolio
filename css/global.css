@@ -133,4 +133,10 @@ a {
         font-size: 12px;
         white-space: nowrap;
     }
+
+    .terminal-prompt {
+        font-size: 0.95rem; 
+        white-space: nowrap; 
+        overflow-x: auto;  
+    }
 }
